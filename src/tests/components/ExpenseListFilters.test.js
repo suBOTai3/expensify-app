@@ -35,7 +35,6 @@ test('should render ExpenselistFilters with alternate data correctly', () => {
 })
 
 test('should handle text change', () => {
-    console.log('---------------------', filters);
     wrapper.setProps({ filters });
     wrapper.find('input').simulate('change', { target: { value: 'bill' } } );
     expect(setTextFilter).toHaveBeenCalledWith('bill');
