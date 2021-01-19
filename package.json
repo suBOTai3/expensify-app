@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Andrew Mead",
   "license": "MIT",
+  "engines": {
+    "node": "14.x",
+    "yarn": "1.x"
+  },
   "scripts": {
     "serve": "live-server public/",
     "build:dev": "webpack",
