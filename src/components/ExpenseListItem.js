@@ -11,7 +11,7 @@ const ExpenseListItem = ({description, amount, id, createdAt}) =>  (
         <p>
             {numeral(amount).format('$0,0.00')}
             -
-            {moment(createdAt).format('yyyy-MMM-DD')}
+            {moment(createdAt).format('yyyy-MM-DD')}
         </p>        
     </div>
 );
