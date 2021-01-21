@@ -1,4 +1,5 @@
 **node_modules**
-**__snapshots__**
-**coverage/lcov-report**
+coverage/**
 public/dist/
+coverage/clover.xml
+coverage/coverage-final.json
