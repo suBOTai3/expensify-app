@@ -17,7 +17,6 @@ export class ExpenseListFilters extends React.Component {
     }
 
     onTextChange = (e) => {
-        console.log('yo dude---*-*-*-*-*', e);
         this.props.setTextFilter(e.target.value);
     };
 
@@ -30,7 +29,6 @@ export class ExpenseListFilters extends React.Component {
     };
 
     render() {
-        console.log('this.state.calendarFocused', this.state.calendarFocused);
         return (
             <div>
                 <input

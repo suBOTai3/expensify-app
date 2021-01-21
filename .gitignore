@@ -1,5 +1,6 @@
 **node_modules**
 coverage/**
 public/dist/
-coverage/clover.xml
-coverage/coverage-final.json
+clover.xml
+coverage-final.json
+yarn-error.log
