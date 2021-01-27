@@ -16,7 +16,7 @@ exports[`should render ExpenseForm correctly with data 1`] = `
       onChange={[Function]}
       placeholder="Amount"
       type="text"
-      value="1.95"
+      value="195"
     />
     <withStyles(SingleDatePicker)
       anchorDirection="left"

@@ -9,7 +9,7 @@ let onSubmitSpy, historySpy, wrapper;
 beforeEach(() => {
     onSubmitSpy = jest.fn();
     historySpy = { push: jest.fn() };
-    wrapper = shallow(<AddExpensePage addExpense={onSubmitSpy} history={historySpy} />);
+    wrapper = shallow(<AddExpensePage addExpense={onSubmitSpy} history={historySpy} />, { disableLifecycleMethods: true });
 });
 
 test('should render add expense page', () => {
